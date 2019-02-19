@@ -5,6 +5,8 @@
 #   one
 
 def prime(num) 
-  if (num >= 2) && (num % 1 == 0)
+  if (num >= 2) 
+    if (num % 1 == 0) && (num % num == 0)
     TRUE 
+  else 
   else FALSE
