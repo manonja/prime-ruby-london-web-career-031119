@@ -6,11 +6,12 @@
 
 def prime(num) 
   return false if num <= 1 
-  
-  
-  if (num >= 2) 
-    if (num % 2 == 0) 
-    FALSE  
-  else TRUE 
-  end 
-end
+  count = 2 
+  while count < num 
+  return false if num % count == 0 
+  count += 1
+  end
+  true
+end 
+
+
