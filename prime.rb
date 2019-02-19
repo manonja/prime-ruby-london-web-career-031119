@@ -5,6 +5,9 @@
 #   one
 
 def prime(num) 
+  return false if num <= 1 
+  
+  
   if (num >= 2) 
     if (num % 2 == 0) 
     FALSE  
