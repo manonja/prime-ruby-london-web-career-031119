@@ -4,3 +4,5 @@
 #   itself 
 #   one
 
+def prime(num) 
+  
