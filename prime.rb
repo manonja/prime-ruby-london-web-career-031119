@@ -4,7 +4,7 @@
 #   itself 
 #   one
 
-def prime(num) 
+def prime?(num) 
   return false if num <= 1 
   count = 2 
   while count < num 
