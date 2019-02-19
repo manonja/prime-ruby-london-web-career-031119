@@ -7,6 +7,7 @@
 def prime(num) 
   if (num >= 2) 
     if (num % 2 == 0) 
-    False 
-  else
-  else FALSE
+    FALSE  
+  else TRUE 
+  end 
+end
